@@ -1,0 +1,19 @@
+<div>
+    <h2>Item Input</h2>
+    <form (ngSubmit)="addItem()">
+      <label for="itemId">Item ID:</label>
+      <input id="itemId" [(ngModel)]="itemId" name="itemId" required />
+  
+      <label for="quantity">Quantity:</label>
+      <input id="quantity" type="number" [(ngModel)]="quantity" name="quantity" required />
+  
+      <label for="cost">Cost:</label>
+      <input id="cost" type="number" [(ngModel)]="cost" name="cost" required />
+  
+      <label for="sellingPrice">Selling Price:</label>
+      <input id="sellingPrice" type="number" [(ngModel)]="sellingPrice" name="sellingPrice" required />
+  
+      <button type="submit">Add Item</button>
+    </form>
+  </div>
+  

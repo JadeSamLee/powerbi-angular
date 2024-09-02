@@ -1,0 +1,20 @@
+/* item-input.component.css */
+div {
+    margin: 20px;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px 15px;
+  }
+  
